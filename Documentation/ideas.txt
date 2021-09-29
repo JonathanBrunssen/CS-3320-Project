@@ -1,0 +1,19 @@
+A Maze game, (something like what you might find on the back of a cereal box)
+Snake
+A numbers/math/typing game. (Think coolmath)
+Word Search
+A side-scrolling racing game. (like the "no internet" dino game on chrome.)
+Cards against humanity type game
+
+Carlos' Idea:
+
+- 2048 based game
+
+- Choose your own adventure text game
+
+- Nonogram game (Basically a pixel art puzzle game)
+
+Jonathan's Ideas:
+- whack a mole
+- memory card game
+- simple math card game think SW KoTOR
