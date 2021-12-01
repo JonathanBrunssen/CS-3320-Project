@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Subpear";
+    src: url("/static/Fonts/subpear.ttf") format("truetype");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background: #76c4fa;
+}
+
+.main-menu-container {
+    margin: auto;
+    width: 90%;
+}
+
+.game-title {
+    color: #136185;
+    font-family: Subpear, Serif;
+    font-size: 10em;
+    padding: 50px;
+    text-align: center;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.block {
+    display: block;
+    width: 50%;
+    height: 100%;
+    background-color: #93c09e;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #fff;
+    font-family: Subpear, Serif;
+    font-weight: bolder;
+    color: #ffffff;
+    font-size: 6em;
+}

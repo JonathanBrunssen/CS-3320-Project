@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Group Project 10 Game</title>
+    <link rel="stylesheet" href="../static/main_menu.css">
+</head>
+<body>
+    <section class="main-menu-container">
+        <h1 class="game-title">Animal Card Matching</h1>
+        <button type="button" class="block" onclick="location.href='{{ url_for('easy') }}'">Easy (4 x 3)</button>
+        <br>
+        <button type="button" class="block" onclick="location.href='{{ url_for('normal') }}'">Normal (4 x 6)</button>
+        <br>
+        <button type="button" class="block" onclick="location.href='{{ url_for('expert') }}'">Expert (4 x 9)</button>
+    </section>
+</body>
+</html>
