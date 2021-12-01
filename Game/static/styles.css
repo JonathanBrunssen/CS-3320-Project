@@ -1,6 +1,7 @@
 @font-face {
-    font-family: "Subpear";
-    src: url("/static/Fonts/subpear.ttf") format("truetype");
+    font-family: "PublicSans";
+    src: url("/static/Fonts/PublicSans-Black.woff") format("woff"),
+        url("/static/Fonts/PublicSans-Black.woff2") format("woff2");
 }
 
 
@@ -30,7 +31,7 @@ body {
 
 .page-title {
     color: #ffffff;
-    font-family: Subpear, sans-serif;
+    font-family: PublicSans, sans-serif;
     font-weight: normal;
     text-align: center;
     display: flex;
@@ -84,7 +85,7 @@ body {
 }
 
 .win-statement {
-    font-family: Subpear, sans-serif;
+    font-family: PublicSans, sans-serif;
     text-align: center;
     font-weight: bold;
     margin: auto;
@@ -126,7 +127,7 @@ body {
     border-radius: 5px;
     border-style: solid;
     border-color: #fff;
-    font-family: Subpear, sans-serif;
+    font-family: PublicSans, sans-serif;
     font-weight: bolder;
     color: #ffffff;
     font-size: 6em;
