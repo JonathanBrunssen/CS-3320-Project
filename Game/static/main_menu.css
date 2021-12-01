@@ -1,6 +1,7 @@
 @font-face {
-    font-family: "Subpear";
-    src: url("/static/Fonts/subpear.ttf") format("truetype");
+    font-family: "PublicSans";
+    src: url("/static/Fonts/PublicSans-Black.woff") format("woff"),
+        url("/static/Fonts/PublicSans-Black.woff2") format("woff2");
 }
 
 * {
@@ -22,7 +23,7 @@ body {
 
 .game-title {
     color: #136185;
-    font-family: Subpear, Serif;
+    font-family: PublicSans, Serif;
     font-size: 10em;
     padding: 50px;
     text-align: center;
@@ -42,7 +43,7 @@ body {
     border-radius: 5px;
     border-style: solid;
     border-color: #fff;
-    font-family: Subpear, Serif;
+    font-family: PublicSans, Serif;
     font-weight: bolder;
     color: #ffffff;
     font-size: 6em;
